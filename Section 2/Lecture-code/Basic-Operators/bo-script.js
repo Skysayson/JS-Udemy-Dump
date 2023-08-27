@@ -25,3 +25,10 @@ console.log(x);
 // x++ operator means x = x + 1
 // x-- operator means x = x - 1
 
+
+//Comparison operators >, <, >=, <=
+
+console.log(ageSky >= 22);
+
+console.log(ageSky * 2 > ageSky - 2);
+
