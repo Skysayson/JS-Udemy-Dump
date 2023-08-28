@@ -2,7 +2,7 @@ const age = 19;
 const isOldEnough = 18;
 
 if(age >= isOldEnough) {
-    console.log("Legal age");
+    console.log(`Age is legal ${age}`);
 } else {
-    console.log("Too young");
+    console.log(`Elise is too young ${age}`);
 }
