@@ -29,6 +29,8 @@ console.log(calcAge3(2001));
 
 //Arrow function that isn't one liner
 
+
+//Calling a function inside another function
 const yearsUntilRetirement = (birthYear, firstName) => {
     const age3 = calcAge3(birthYear);
     const retirement = 26 - age3;
@@ -36,8 +38,7 @@ const yearsUntilRetirement = (birthYear, firstName) => {
     return `${firstName} retires in ${retirement}`;
 }
 
-
 console.log(yearsUntilRetirement(2001, "Sky"));
-
+//No needed to return a value
 
 
